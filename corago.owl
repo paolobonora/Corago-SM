@@ -16,7 +16,7 @@
      xmlns:geosparql="http://www.opengis.net/ont/geosparql#"
      xmlns:relationship="http://purl.org/vocab/relationship/">
     <owl:Ontology rdf:about="http://corago.unibo.it/sm/">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corago Semantic Model is an extension of CIDOC CRM and FRBRoo  (both Erlangen version) dedicated to the domain of Opera.
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Corago Semantic Model is an extension of CIDOC CRM and FRBRoo  (both Erlangen version) dedicated to the domain of Opera.
 This implementation has been developed by Paolo Bonora and Angelo Pompilio at the Department of Cultural Heritage of University of Bologna.
 The Corago SM is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0) License.</rdfs:comment>
         <rdfs:label>Corago Semantic Model (Corago SM)</rdfs:label>
@@ -45,8 +45,10 @@ The Corago SM is licensed under a Creative Commons Attribution-NonCommercial-NoD
     <!-- http://corago.unibo.it/sm/CPAN2_typing_class -->
 
     <owl:AnnotationProperty rdf:about="http://corago.unibo.it/sm/CPAN2_typing_class">
-        <rdfs:label xml:lang="en">defines the typing class of a navigable property</rdfs:label>
-        <rdfs:label xml:lang="it">definisce la classe che qualifica una proprietà navigabile</rdfs:label>
+        <rdfs:comment xml:lang="en">Defines the typing class of a navigable property</rdfs:comment>
+        <rdfs:comment xml:lang="it">Definisce la classe che qualifica una proprietà navigabile</rdfs:comment>
+        <rdfs:label xml:lang="it">Classe caratterizzante</rdfs:label>
+        <rdfs:label xml:lang="en">Typing class</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -54,8 +56,10 @@ The Corago SM is licensed under a Creative Commons Attribution-NonCommercial-NoD
     <!-- http://corago.unibo.it/sm/CPAN3_typing_class_position -->
 
     <owl:AnnotationProperty rdf:about="http://corago.unibo.it/sm/CPAN3_typing_class_position">
-        <rdfs:label xml:lang="it">posizione della classe qualificate la proprietà navigabile nella property chain</rdfs:label>
-        <rdfs:label xml:lang="en">specify the position of the qualifying class in the property path</rdfs:label>
+        <rdfs:comment xml:lang="it">posizione della classe qualificate la proprietà navigabile nella property chain</rdfs:comment>
+        <rdfs:comment xml:lang="en">specifies the position of the qualifying class in the property path</rdfs:comment>
+        <rdfs:label xml:lang="it">Posizione della classe caratterizzante</rdfs:label>
+        <rdfs:label xml:lang="en">Typing class position</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -4293,6 +4297,8 @@ Example:  &quot;48.13188#11.54965#1379714400&quot;^^&lt;http://www.bigdata.com/r
         <CPAN1_priority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</CPAN1_priority>
         <CPAN4_thematic_area xml:lang="it">basic_info</CPAN4_thematic_area>
         <CPAN5_is_feature rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</CPAN5_is_feature>
+        <rdfs:comment xml:lang="it">Specifica il genere di un opera così come riportato dalla fonte</rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the genre of a work as stated within the source</rdfs:comment>
         <rdfs:label xml:lang="it">genere in fonte</rdfs:label>
         <rdfs:label xml:lang="en">genre in source of a work</rdfs:label>
     </owl:DatatypeProperty>
@@ -4375,6 +4381,8 @@ Example:  &quot;48.13188#11.54965#1379714400&quot;^^&lt;http://www.bigdata.com/r
         <CPAN1_priority xml:lang="en">7</CPAN1_priority>
         <CPAN4_thematic_area xml:lang="it">basic_info</CPAN4_thematic_area>
         <CPAN5_is_feature xml:lang="it">true</CPAN5_is_feature>
+        <rdfs:comment xml:lang="it">Riporta l&apos;edizione del documento così come indicata nella fonte</rdfs:comment>
+        <rdfs:comment xml:lang="en">Specifies the edition of a document as stated within the source</rdfs:comment>
         <rdfs:label xml:lang="en">edition in source</rdfs:label>
         <rdfs:label xml:lang="it">edizione in fonte</rdfs:label>
     </owl:DatatypeProperty>
@@ -4972,6 +4980,7 @@ Example:  &quot;48.13188#11.54965#1379714400&quot;^^&lt;http://www.bigdata.com/r
     <rdf:Description rdf:about="http://corago.unibo.it/sm/CPAN1_priority">
         <rdfs:label xml:lang="it">priorità</rdfs:label>
         <rdfs:label xml:lang="en">priority</rdfs:label>
+        <rdfs:comment xml:lang="en">Relevance of the attribute among the resource&apos;s metadata.</rdfs:comment>
         <rdfs:comment xml:lang="it">Rilevanza dell&apos;attributo nella descrizione della risorsa.</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
