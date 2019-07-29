@@ -5,4 +5,4 @@ The entry point are:
 - /doc/index_en.html file for the english version
 - /doc/index_it.html file for the italian version
 
-Please address any issue, comment or suggestion to the https://github.com/paolobonora/Corago-SM issue management area.
+Please address any issue, comment or suggestion to https://github.com/paolobonora/Corago-SM/issues.
