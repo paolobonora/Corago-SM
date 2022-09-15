@@ -7,3 +7,5 @@ The ontology has been developed by Paolo Bonora and Angelo Pompilio at the Depar
 The Corago SM is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0) License.
 
 The ontology documentation is available within the [/doc](/doc/readme.md) folder.
+
+The OWL version is available for download [HERE](/corago.owl)
